@@ -4,36 +4,38 @@ In this project, Turtlebot and Baxter helps a person fetch something mainly base
 Turtlebot
 Due to some environment problems, three separate programs have to run in the computer connected to the turtlebot. (We will try to solve the problem in further work.)
 
-1. Speech recognition
-Setup
+  1. Speech recognition
 
-virtualenv ENV
+  Setup
 
-source /home/turtlebot/ENV/bin/activate
+  virtualenv ENV
 
-pip install --upgrade google-cloud-speech
+  source /home/turtlebot/ENV/bin/activate
 
-pip install pyaudio
+  pip install --upgrade google-cloud-speech
 
-export GOOGLE_APPLICATION_CREDENTIALS="path/xx.json"
+  pip install pyaudio
 
-python ~/oliver_turtle/audio_test.py
+  export GOOGLE_APPLICATION_CREDENTIALS="path/xx.json"
 
-2. Move of turtlebot
+  python ~/oliver_turtle/audio_test.py
 
-roslaunch turtlebot_bringup minimal.launch
+  2. Move of turtlebot
 
-In another terminal: python ~/oliver_turtle/turtle.py
+  roslaunch turtlebot_bringup minimal.launch
 
-3. Send the request to Baxter
+  In another terminal: python ~/oliver_turtle/turtle.py
 
-python ~/oliver_turtle/transmit_test.py
+  3. Send the request to Baxter
 
-Baxter
-Due to some environment problems, two separate programs have to run in the computer connected to the turtlebot. (We will try to solve the problem in further work.)
+  python ~/oliver_turtle/transmit_test.py
 
-1. Object detection
+  Baxter
+  Due to some environment problems, two separate programs have to run in the computer connected to the turtlebot. (We will try to solve   the problem in further work.)
+
+  1. Object detection
 
 
-2. 
-python ~/oliver_baxter/move_and_camera.py
+  2. Baxter Manipulation
+  
+  python ~/oliver_baxter/move_and_camera.py
