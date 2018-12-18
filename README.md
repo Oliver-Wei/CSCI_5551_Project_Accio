@@ -37,6 +37,8 @@ Due to some environment problems and USB conflicts, three separate programs have
 
 	1. Object detection
 	
+	(Refer to https://github.com/tensorflow/models, downlaod models from this website)
+	
 	virtualenv --system-site-packages -p python3 ./venv
 	
 	source ./venv/bin/activate
