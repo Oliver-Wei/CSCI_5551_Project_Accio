@@ -34,8 +34,26 @@ Due to some environment problems, three separate programs have to run in the com
   Due to some environment problems, two separate programs have to run in the computer connected to the turtlebot. (We will try to solve   the problem in further work.)
 
 	1. Object detection
+	
+	virtualenv --system-site-packages -p python3 ./venv
+	
+	source ./venv/bin/activate
+	
+	pip install --upgrade pip
+	
+	pip install --upgrade tensorflow
+	
+	pip install opencv-python
+	
+	pip install Pillow
+	
+	cd ~/models/research
+	
+	export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+	
+	python object_detection/5551_v2.py
 
 
 	2. Baxter Manipulation
 
-	python ~/oliver_baxter/move_and_camera.py
+	python ~/oliver_baxter/baxter.py
