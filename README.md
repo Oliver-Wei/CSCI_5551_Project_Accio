@@ -5,7 +5,9 @@ Turtlebot
 
 Due to some environment problems and USB conflicts, three separate programs have to run in the computer connected to the turtlebot. (We will try to solve the problem in further work.)
 
-	1. Speech recognition (Refer to https://cloud.google.com/speech-to-text/docs/reference/libraries#client-libraries-install-python)
+	1. Speech recognition 
+	
+	(Refer to https://cloud.google.com/speech-to-text/docs/reference/libraries#client-libraries-install-python)
 		
 	virtualenv ENV
 
