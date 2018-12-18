@@ -6,17 +6,16 @@ Due to some environment problems, three separate programs have to run in the com
 
 	1. Speech recognition
 		
-		Setup
 
-  		virtualenv ENV
+		virtualenv ENV
 
-			source /home/turtlebot/ENV/bin/activate
+		source /home/turtlebot/ENV/bin/activate
 
-			pip install --upgrade google-cloud-speech
+		pip install --upgrade google-cloud-speech
 
-			pip install pyaudio
+		pip install pyaudio
 
-			export GOOGLE_APPLICATION_CREDENTIALS="path/xx.json"
+		export GOOGLE_APPLICATION_CREDENTIALS="path/xx.json"
 
 	  python ~/oliver_turtle/audio_test.py
 
