@@ -28,4 +28,4 @@ Due to some environment problems, two separate programs have to run in the compu
 
 
 2. 
-python move_and_camera.py
+python ~/oliver_baxter/move_and_camera.py
