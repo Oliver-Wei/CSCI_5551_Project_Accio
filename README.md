@@ -7,7 +7,6 @@ Due to some environment problems, three separate programs have to run in the com
 
 	1. Speech recognition
 		
-
 	virtualenv ENV
 
 	source /home/turtlebot/ENV/bin/activate
