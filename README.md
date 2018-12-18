@@ -51,7 +51,7 @@ Due to some environment problems, three separate programs have to run in the com
 	
 	export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 	
-	python object_detection/5551_v2.py
+	python object_detection/object_detection.py
 
 
 	2. Baxter Manipulation
