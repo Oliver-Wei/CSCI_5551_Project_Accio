@@ -3,9 +3,9 @@ In this project, Turtlebot and Baxter helps a person fetch something mainly base
 
 Turtlebot
 
-Due to some environment problems, three separate programs have to run in the computer connected to the turtlebot. (We will try to solve the problem in further work.)
+Due to some environment problems and USB conflicts, three separate programs have to run in the computer connected to the turtlebot. (We will try to solve the problem in further work.)
 
-	1. Speech recognition
+	1. Speech recognition (Refer to https://cloud.google.com/speech-to-text/docs/reference/libraries#client-libraries-install-python)
 		
 	virtualenv ENV
 
